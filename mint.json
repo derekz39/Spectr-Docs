@@ -1,91 +1,63 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Spectr Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/spectr_icon.png",
+    "light": "/logo/spectr_icon.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/spectr_icon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#fbc403",
+    "dark": "#fbc403",
+    "light": "#fbc403"
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Support Server",
+      "url": "https://discord.gg/FyZCAWtDSW"
+    },
+    {
+      "name": "Status",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Add Spectr",
+    "url": "https://discord.com/oauth2/authorize?client_id=1295108235669405786"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "overview",
+        "FAQ",
+        "configuration"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Modules",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "Modules/customization",
+        "Modules/infractions",
+        "Modules/promotions",
+        "Modules/reviews",
+        "Modules/giveaways",
+        "Modules/order-Logging",
+        "Modules/suggestions",
+        "Modules/supporters",
+        "Modules/anti-Ping",
+        "Modules/welcome",
+        "Modules/quality-Control",
+        "Modules/payment-Links"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Other",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "Other/variable-Uses",
+        "Other/restriction-Appeals",
+        "Other/disputes-&-Chargebacks"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  ]
 }
