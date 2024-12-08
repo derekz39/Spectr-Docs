@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Spectr Docs",
   "logo": {
-    "dark": "/logo/spectr_icon.png",
-    "light": "/logo/spectr_icon.png"
+    "dark": "/logo/spectr_banner.png",
+    "light": "/logo/spectr_banner.png"
   },
   "favicon": "/logo/spectr_icon.png",
   "colors": {
@@ -30,25 +30,25 @@
       "group": "Getting Started",
       "pages": [
         "overview",
-        "FAQ",
+        "faq",
         "configuration"
       ]
     },
     {
       "group": "Modules",
       "pages": [
-        "Modules/customization",
-        "Modules/infractions",
-        "Modules/promotions",
-        "Modules/reviews",
-        "Modules/giveaways",
-        "Modules/order-Logging",
-        "Modules/suggestions",
-        "Modules/supporters",
-        "Modules/anti-Ping",
-        "Modules/welcome",
-        "Modules/quality-Control",
-        "Modules/payment-Links"
+        "modules/customization",
+        "modules/infractions",
+        "modules/promotions",
+        "modules/reviews",
+        "modules/giveaways",
+        "modules/order-Logging",
+        "modules/suggestions",
+        "modules/supporters",
+        "modules/anti-Ping",
+        "modules/welcome",
+        "modules/quality-Control",
+        "modules/payment-Links"
       ]
     },
     {
@@ -56,7 +56,9 @@
       "pages": [
         "Other/variable-Uses",
         "Other/restriction-Appeals",
-        "Other/disputes-&-Chargebacks"
+        "Other/disputes-&-Chargebacks",
+        "privacy-policy",
+        "terms-of-service"
       ]
     }
   ]
