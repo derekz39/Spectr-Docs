@@ -14,16 +14,16 @@
   "topbarLinks": [
     {
       "name": "Support Server",
-      "url": "https://discord.gg/FyZCAWtDSW"
+      "url": "https://spectrbot.app/support"
     },
     {
       "name": "Status",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://spectrbot.app/status"
     }
   ],
   "topbarCtaButton": {
     "name": "Add Spectr",
-    "url": "https://discord.com/oauth2/authorize?client_id=1295108235669405786"
+    "url": "https://spectrbot.app/invite"
   },
   "navigation": [
     {
