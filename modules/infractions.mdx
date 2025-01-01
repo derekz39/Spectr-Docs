@@ -2,8 +2,26 @@
 title: Infractions
 ---
 
-Spectr includes a infraction module that allows you to help better manage your staff team and by giving you the ability to issue punishments to any member of your staff team at any give time. This module contains elements from your Server Customization.
+<Warning>This command must be configured & enabled via the /config command!</Warning>
+
+<Warning>Users must have the **Management Role** permissions via the /config command to use thius module.</Warning>
+
+The infraction module that allows server management to help better manage their staff team and by giving them the ability to issue punishments to any member of your staff team at any give time. 
 ## Configuration
 
+<Info>This module contains elements from your the Customization Module.</Info>
 
+Once you have configured staff and management permissions, you can start the configuration process for the other modules. For the infractions command, you need to run  `/Config > Configure Infractions`. Using the following dropdown, you can configure the channel for infractions to be sent within. This channel will be used by Spectr to log all infractions. These infractions will be sent in embed messages with the user information, date of punishment, reason for punishment, and who issued the punishment.
 
+## Using Infractions
+
+### Infraction Issue
+If you need to issue a infraction to one of your staff members, you can use `/Infraction Issue`. This will require a set of parameters such as the user, reason, punishment type, and optional notes. Once you have entered that information, you may send the command. You should recieve a message saying the command was successful. You can now check your infraction channel to see the embed with all the information you entered. 
+
+### Infraction View
+If you need to view all infractions given to a specific user, you can use `/Infraction View`. This command will show you all information about the selected user. Once you run the command, select a user to view all past punishments for. This will show you the infraction reason, who issued the punishment and date of punishment. 
+
+### Infraction Void
+If you need to delete or void a punishment, run `/Infraction Void`. In the following parameters fill out the user for the punished user, alongside the infraction ID for the punishment. To find the infraction ID, you will go to the following punishment\'s embed, and check the bottom of the embed. It should say `Infraction ID:`, copy that ID and paste it in the `Infraction-id` parameter. Once you have all the information needed, you may complete the command and void the punishment.
+
+<Info>When issuing a **Termination**, Spectr will automatically remove their staff roles, and DM the user.</Info>
