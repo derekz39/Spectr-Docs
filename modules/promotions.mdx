@@ -1,0 +1,30 @@
+---
+title: Promotions
+---
+
+<Warning>This command must be configured & enabled via the /config command!</Warning>
+
+<Warning>Users must have the **Management Role** permissions via the /config command to use this module.</Warning>
+
+With Spectr's Promotions module, promoting staff has never been easier. Run a single command, and Spectr will handle the rest removing outdated roles and assigning new ones seamlessly.
+## Configuration
+
+<Info>This module contains elements from the Customization Module.</Info>
+
+To configure the promotion module, you will use `Config > Configure Promotions` using the select menu, you will select the channel you wish the promotions to be logged in. Once you choose the desired channel, enable the promotions command by clicking the green button that says "Enable Promotions". Afterwards, the command will be set. For the promotion command, you will start with running the `/Promote` command. Enter the members user, then in the next field, their new rank they will be promoted to. Do not add their current rank, as that will promote them to the same rank. Once you have filled out the following fields, you may execute the command. Spectr will automatically give them the selected role when you filled out the fields, Spectr will not role the member with any other role then the one selected. 
+
+## Editing the Embed
+The promotions plugin allows server management to customize the promotion embed to their liking. Please follow the steps below to customize the promotion embed to your liking?
+
+1. Go to the Promotions Config via `Config > Configure Promotions`.
+2. Click the blue "Edit Embed" button. 
+
+This will then take you to a new menu which will show the current promotion description. You can use the buttons on the bottom to customize the embed to your servers liking. Please be aware you cannot change colors, emojis, and images. Those can be set via the Customization Module (Spectr Premium Only). 
+
+## Description Variables
+While setting the promotion description, there are variables that you can use to have dynamic information based off that specific promotion. The variables are as follows.
+| Variable Name | Description                              |
+| ------------- | ---------------------------------------- |
+| `{user}`      | Mentions the user thats being promoted.  |
+| `{rank}`      | The rank the user has being promoted to. |
+| `{notes}`     | Displays the notes for the promotion.    |
