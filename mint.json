@@ -42,7 +42,7 @@
         "modules/promotions",
         "modules/reviews",
         "modules/giveaways",
-        "modules/order-Logging",
+        "modules/order-Logs",
         "modules/suggestions",
         "modules/supporters",
         "modules/anti-Ping",
