@@ -29,9 +29,9 @@
     {
       "group": "Getting Started",
       "pages": [
-        "overview",
-        "faquestions",
-        "configuration"
+        "other/overview",
+        "other/faquestions",
+        "other/configuration"
       ]
     },
     {
@@ -42,20 +42,20 @@
         "modules/promotions",
         "modules/reviews",
         "modules/giveaways",
-        "modules/order-Logs",
+        "modules/order-logs",
         "modules/suggestions",
         "modules/supporters",
-        "modules/anti-Ping",
+        "modules/anti-ping",
         "modules/welcome",
-        "modules/quality-Control",
-        "modules/payment-Links"
+        "modules/quality-control",
+        "modules/payment-links"
       ]
     },
     {
       "group": "Other",
       "pages": [
-        "Other/restriction-Appeals",
-        "Other/disputes-&-Chargebacks",
+        "Other/restriction-apeals",
+        "Other/disputes-&-chargebacks",
         "privacy-policy",
         "terms-of-service"
       ]
