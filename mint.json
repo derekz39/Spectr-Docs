@@ -54,8 +54,8 @@
     {
       "group": "Other",
       "pages": [
-        "Other/restriction-apeals",
-        "Other/disputes-&-chargebacks",
+        "other/restriction-Appeals",
+        "other/disputes-&-Chargebacks",
         "privacy-policy",
         "terms-of-service"
       ]
